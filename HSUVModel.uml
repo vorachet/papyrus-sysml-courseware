@@ -1,59 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks" xmlns:ModelElements="http://www.eclipse.org/papyrus/0.7.0/SysML/ModelElements" xmlns:Requirements="http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks http://www.eclipse.org/papyrus/0.7.0/SysML/ModelElements http://www.eclipse.org/papyrus/0.7.0/SysML#//modelelements http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements http://www.eclipse.org/papyrus/0.7.0/SysML#//requirements">
   <uml:Model xmi:id="_kejU0K4-EeeSp-bnIJDiMA" name="HSUVModel" visibility="public">
-    <packagedElement xmi:type="uml:Package" xmi:id="__9U-IK4-EeeSp-bnIJDiMA" name="HSUVUseCases">
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_8CQcoK5zEeemhd99vAxUoA" name="OperateTheVehicle"/>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_-vL88K5zEeemhd99vAxUoA" name="Driver"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="__lZzQK5zEeemhd99vAxUoA" memberEnd="__lddoK5zEeemhd99vAxUoA __lddoa5zEeemhd99vAxUoA">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__lcPgK5zEeemhd99vAxUoA" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__lcPga5zEeemhd99vAxUoA" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="__lddoK5zEeemhd99vAxUoA" name="operatethevehicle" type="_8CQcoK5zEeemhd99vAxUoA" association="__lZzQK5zEeemhd99vAxUoA"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="__lddoa5zEeemhd99vAxUoA" name="driver" type="_-vL88K5zEeemhd99vAxUoA" association="__lZzQK5zEeemhd99vAxUoA"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_FqSt4K50Eeemhd99vAxUoA" name="InsureTheVehicle"/>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_HtulQK50Eeemhd99vAxUoA" name="RegisteredOwner"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_Jlk3sK50Eeemhd99vAxUoA" memberEnd="_JlmF0q50Eeemhd99vAxUoA _JlmF0650Eeemhd99vAxUoA">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JlmF0K50Eeemhd99vAxUoA" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JlmF0a50Eeemhd99vAxUoA" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_JlmF0q50Eeemhd99vAxUoA" name="insurethevehicle" type="_FqSt4K50Eeemhd99vAxUoA" association="_Jlk3sK50Eeemhd99vAxUoA"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_JlmF0650Eeemhd99vAxUoA" name="registeredowner" type="_HtulQK50Eeemhd99vAxUoA" association="_Jlk3sK50Eeemhd99vAxUoA"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_Ni4awK50Eeemhd99vAxUoA" name="InsuranceCompany"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_PixO4K50Eeemhd99vAxUoA" memberEnd="_Pix18q50Eeemhd99vAxUoA _PiydAK50Eeemhd99vAxUoA">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Pix18K50Eeemhd99vAxUoA" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pix18a50Eeemhd99vAxUoA" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_Pix18q50Eeemhd99vAxUoA" name="insurethevehicle" type="_FqSt4K50Eeemhd99vAxUoA" association="_PixO4K50Eeemhd99vAxUoA"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_PiydAK50Eeemhd99vAxUoA" name="insurancecompany" type="_Ni4awK50Eeemhd99vAxUoA" association="_PixO4K50Eeemhd99vAxUoA"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_RSWWIK50Eeemhd99vAxUoA" name="RegisterTheVehicle"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_UZlz4K50Eeemhd99vAxUoA" memberEnd="_UZma8q50Eeemhd99vAxUoA _UZnCAK50Eeemhd99vAxUoA">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UZma8K50Eeemhd99vAxUoA" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UZma8a50Eeemhd99vAxUoA" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_UZma8q50Eeemhd99vAxUoA" name="registerthevehicle" type="_RSWWIK50Eeemhd99vAxUoA" association="_UZlz4K50Eeemhd99vAxUoA"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_UZnCAK50Eeemhd99vAxUoA" name="registeredowner" type="_HtulQK50Eeemhd99vAxUoA" association="_UZlz4K50Eeemhd99vAxUoA"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_WgAt0K50Eeemhd99vAxUoA" name="DepartmentOfMotorVehicles"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_YTrq4K50Eeemhd99vAxUoA" memberEnd="_YTsR8q50Eeemhd99vAxUoA _YTsR8650Eeemhd99vAxUoA">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YTsR8K50Eeemhd99vAxUoA" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YTsR8a50Eeemhd99vAxUoA" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_YTsR8q50Eeemhd99vAxUoA" name="registerthevehicle" type="_RSWWIK50Eeemhd99vAxUoA" association="_YTrq4K50Eeemhd99vAxUoA"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_YTsR8650Eeemhd99vAxUoA" name="departmentofmotorvehicles" type="_WgAt0K50Eeemhd99vAxUoA" association="_YTrq4K50Eeemhd99vAxUoA"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_aVKacK50Eeemhd99vAxUoA" name="Maintainer"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_boo0gK50Eeemhd99vAxUoA" name="MaintainTheVeihicle"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_dVAPsK50Eeemhd99vAxUoA" memberEnd="_dVA2wq50Eeemhd99vAxUoA _dVA2w650Eeemhd99vAxUoA">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dVA2wK50Eeemhd99vAxUoA" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dVA2wa50Eeemhd99vAxUoA" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_dVA2wq50Eeemhd99vAxUoA" name="maintaintheveihicle" type="_boo0gK50Eeemhd99vAxUoA" association="_dVAPsK50Eeemhd99vAxUoA"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_dVA2w650Eeemhd99vAxUoA" name="maintainer" type="_aVKacK50Eeemhd99vAxUoA" association="_dVAPsK50Eeemhd99vAxUoA"/>
-      </packagedElement>
-    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="__9U-IK4-EeeSp-bnIJDiMA" name="HSUVUseCases"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_CRnU8K4_EeeSp-bnIJDiMA" name="HSUVBehavior">
       <packagedElement xmi:type="uml:Package" xmi:id="_TInuUK4_EeeSp-bnIJDiMA" name="DeliverPowerBehavior"/>
     </packagedElement>
@@ -166,6 +114,57 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_QIGuMK5AEeeSp-bnIJDiMA" name="HSUVAnalysis"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_m0-uwK5AEeeSp-bnIJDiMA" name="AutomotiveValueTypes"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_8CQcoK5zEeemhd99vAxUoA" name="OperateTheVehicle"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_-vL88K5zEeemhd99vAxUoA" name="Driver"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="__lZzQK5zEeemhd99vAxUoA" memberEnd="__lddoK5zEeemhd99vAxUoA __lddoa5zEeemhd99vAxUoA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__lcPgK5zEeemhd99vAxUoA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__lcPga5zEeemhd99vAxUoA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="__lddoK5zEeemhd99vAxUoA" name="operatethevehicle" type="_8CQcoK5zEeemhd99vAxUoA" association="__lZzQK5zEeemhd99vAxUoA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="__lddoa5zEeemhd99vAxUoA" name="driver" type="_-vL88K5zEeemhd99vAxUoA" association="__lZzQK5zEeemhd99vAxUoA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_FqSt4K50Eeemhd99vAxUoA" name="InsureTheVehicle"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_HtulQK50Eeemhd99vAxUoA" name="RegisteredOwner"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Jlk3sK50Eeemhd99vAxUoA" memberEnd="_JlmF0q50Eeemhd99vAxUoA _JlmF0650Eeemhd99vAxUoA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JlmF0K50Eeemhd99vAxUoA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JlmF0a50Eeemhd99vAxUoA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_JlmF0q50Eeemhd99vAxUoA" name="insurethevehicle" type="_FqSt4K50Eeemhd99vAxUoA" association="_Jlk3sK50Eeemhd99vAxUoA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_JlmF0650Eeemhd99vAxUoA" name="registeredowner" type="_HtulQK50Eeemhd99vAxUoA" association="_Jlk3sK50Eeemhd99vAxUoA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_Ni4awK50Eeemhd99vAxUoA" name="InsuranceCompany"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_PixO4K50Eeemhd99vAxUoA" memberEnd="_Pix18q50Eeemhd99vAxUoA _PiydAK50Eeemhd99vAxUoA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Pix18K50Eeemhd99vAxUoA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pix18a50Eeemhd99vAxUoA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Pix18q50Eeemhd99vAxUoA" name="insurethevehicle" type="_FqSt4K50Eeemhd99vAxUoA" association="_PixO4K50Eeemhd99vAxUoA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_PiydAK50Eeemhd99vAxUoA" name="insurancecompany" type="_Ni4awK50Eeemhd99vAxUoA" association="_PixO4K50Eeemhd99vAxUoA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_RSWWIK50Eeemhd99vAxUoA" name="RegisterTheVehicle"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_UZlz4K50Eeemhd99vAxUoA" memberEnd="_UZma8q50Eeemhd99vAxUoA _UZnCAK50Eeemhd99vAxUoA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UZma8K50Eeemhd99vAxUoA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UZma8a50Eeemhd99vAxUoA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_UZma8q50Eeemhd99vAxUoA" name="registerthevehicle" type="_RSWWIK50Eeemhd99vAxUoA" association="_UZlz4K50Eeemhd99vAxUoA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_UZnCAK50Eeemhd99vAxUoA" name="registeredowner" type="_HtulQK50Eeemhd99vAxUoA" association="_UZlz4K50Eeemhd99vAxUoA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_WgAt0K50Eeemhd99vAxUoA" name="DepartmentOfMotorVehicles"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_YTrq4K50Eeemhd99vAxUoA" memberEnd="_YTsR8q50Eeemhd99vAxUoA _YTsR8650Eeemhd99vAxUoA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YTsR8K50Eeemhd99vAxUoA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YTsR8a50Eeemhd99vAxUoA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_YTsR8q50Eeemhd99vAxUoA" name="registerthevehicle" type="_RSWWIK50Eeemhd99vAxUoA" association="_YTrq4K50Eeemhd99vAxUoA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_YTsR8650Eeemhd99vAxUoA" name="departmentofmotorvehicles" type="_WgAt0K50Eeemhd99vAxUoA" association="_YTrq4K50Eeemhd99vAxUoA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_aVKacK50Eeemhd99vAxUoA" name="Maintainer"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_boo0gK50Eeemhd99vAxUoA" name="MaintainTheVeihicle"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_dVAPsK50Eeemhd99vAxUoA" memberEnd="_dVA2wq50Eeemhd99vAxUoA _dVA2w650Eeemhd99vAxUoA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dVA2wK50Eeemhd99vAxUoA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dVA2wa50Eeemhd99vAxUoA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_dVA2wq50Eeemhd99vAxUoA" name="maintaintheveihicle" type="_boo0gK50Eeemhd99vAxUoA" association="_dVAPsK50Eeemhd99vAxUoA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_dVA2w650Eeemhd99vAxUoA" name="maintainer" type="_aVKacK50Eeemhd99vAxUoA" association="_dVAPsK50Eeemhd99vAxUoA"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_kf4KgK4-EeeSp-bnIJDiMA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kgAtYK4-EeeSp-bnIJDiMA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#/"/>

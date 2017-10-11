@@ -675,7 +675,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8CV8Na5zEeemhd99vAxUoA"/>
       </children>
       <element xmi:type="uml:UseCase" href="HSUVModel.uml#_8CQcoK5zEeemhd99vAxUoA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8CVVIa5zEeemhd99vAxUoA" x="284" y="68"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8CVVIa5zEeemhd99vAxUoA" x="278" y="66"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_-vNyIK5zEeemhd99vAxUoA" type="Actor_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_-vOZMK5zEeemhd99vAxUoA" type="Actor_NameLabel">
@@ -794,7 +794,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_boqpuK50Eeemhd99vAxUoA"/>
       </children>
       <element xmi:type="uml:UseCase" href="HSUVModel.uml#_boo0gK50Eeemhd99vAxUoA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_boqpsa50Eeemhd99vAxUoA" x="255" y="387"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_boqpsa50Eeemhd99vAxUoA" x="297" y="374"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_lrWwEa5HEeeo-f1CuAxYnA" name="diagram_compatibility_version" stringValue="1.2.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_lrWwEq5HEeeo-f1CuAxYnA"/>
@@ -827,7 +827,7 @@
       <element xmi:type="uml:Association" href="HSUVModel.uml#__lZzQK5zEeemhd99vAxUoA"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__lf54q5zEeemhd99vAxUoA" points="[349, 51, -643984, -643984]$[547, 71, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__mTLIK5zEeemhd99vAxUoA" id="(1.0,0.24)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__mTLIa5zEeemhd99vAxUoA" id="(0.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__mTLIa5zEeemhd99vAxUoA" id="(0.10714285714285714,0.0)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_JlnT8K50Eeemhd99vAxUoA" type="Association_Edge" source="_HtwacK50Eeemhd99vAxUoA" target="_FqUjEK50Eeemhd99vAxUoA">
       <children xmi:type="notation:DecorationNode" xmi:id="_Jln7AK50Eeemhd99vAxUoA" type="Association_StereotypeLabel">
@@ -962,7 +962,7 @@
       <element xmi:type="uml:Association" href="HSUVModel.uml#_dVAPsK50Eeemhd99vAxUoA"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dVCr8q50Eeemhd99vAxUoA" points="[880, 352, -643984, -643984]$[931, 437, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dWEmsK50Eeemhd99vAxUoA" id="(1.0,1.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dWEmsa50Eeemhd99vAxUoA" id="(0.0,0.5333333333333333)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dWEmsa50Eeemhd99vAxUoA" id="(0.0,0.5)"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_Anl3kK5JEeeo-f1CuAxYnA" type="BlockDefinition" name="AutomotiveDomainBreakdown" measurementUnit="Pixel">
