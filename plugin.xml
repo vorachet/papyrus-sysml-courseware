@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated model -->
+      <package
+            uri="http:///HSUVModel/HSUVStructure.ecore"
+            class="HSUVModel.HSUVStructure.HSUVStructurePackage"
+            genModel="model.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated model -->
+      <package
+            uri="http:///HSUVModel/HSUVViews.ecore"
+            class="HSUVModel.HSUVViews.HSUVViewsPackage"
+            genModel="model.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated model -->
+      <package
+            uri="http:///HSUVModel/HSUVRequirements.ecore"
+            class="HSUVModel.HSUVRequirements.HSUVRequirementsPackage"
+            genModel="model.genmodel"/>
+   </extension>
+
+</plugin>

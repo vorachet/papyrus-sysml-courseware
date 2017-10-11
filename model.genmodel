@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/uml2/2.2.0/GenModel"
+    modelDirectory="/papyrus-sysml-courseware/src" modelPluginID="papyrus-sysml-courseware"
+    modelName="Model" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.uml2.uml.ecore.importer" copyrightFields="false" importOrganizing="true">
+  <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/importer/org.eclipse.uml2.uml.ecore.importer">
+    <details key="OPPOSITE_ROLE_NAMES" value="IGNORE"/>
+    <details key="DUPLICATE_FEATURES" value="DISCARD"/>
+    <details key="ANNOTATION_DETAILS" value="PROCESS"/>
+    <details key="PROPERTY_DEFAULT_EXPRESSIONS" value="IGNORE"/>
+    <details key="DUPLICATE_FEATURE_INHERITANCE" value="DISCARD"/>
+    <details key="COMMENTS" value="PROCESS"/>
+    <details key="DERIVED_FEATURES" value="PROCESS"/>
+    <details key="SUPER_CLASS_ORDER" value="PROCESS"/>
+    <details key="DUPLICATE_OPERATION_INHERITANCE" value="DISCARD"/>
+    <details key="REDEFINING_OPERATIONS" value="REPORT"/>
+    <details key="INVARIANT_CONSTRAINTS" value="PROCESS"/>
+    <details key="UNION_PROPERTIES" value="REPORT"/>
+    <details key="DUPLICATE_OPERATIONS" value="DISCARD"/>
+    <details key="NON_API_INVARIANTS" value="IGNORE"/>
+    <details key="CAMEL_CASE_NAMES" value="IGNORE"/>
+    <details key="SUBSETTING_PROPERTIES" value="REPORT"/>
+    <details key="OPERATION_BODIES" value="IGNORE"/>
+    <details key="ECORE_TAGGED_VALUES" value="PROCESS"/>
+    <details key="UNTYPED_PROPERTIES" value="REPORT"/>
+    <details key="REDEFINING_PROPERTIES" value="REPORT"/>
+    <details key="INVOCATION_DELEGATES" value="IGNORE"/>
+    <details key="VALIDATION_DELEGATES" value="IGNORE"/>
+  </genAnnotations>
+  <foreignModel>HSUVModel.uml</foreignModel>
+  <genPackages xsi:type="genmodel:GenPackage" prefix="HSUVModel" disposableProviderFactory="true"
+      ecorePackage="HSUVModel.ecore#/">
+    <nestedGenPackages xsi:type="genmodel:GenPackage" prefix="HSUVUseCases" basePackage="HSUVModel"
+        disposableProviderFactory="true" ecorePackage="HSUVModel.ecore#//HSUVUseCases"/>
+    <nestedGenPackages xsi:type="genmodel:GenPackage" prefix="HSUVBehavior" basePackage="HSUVModel"
+        disposableProviderFactory="true" ecorePackage="HSUVModel.ecore#//HSUVBehavior">
+      <nestedGenPackages xsi:type="genmodel:GenPackage" prefix="DeliverPowerBehavior"
+          basePackage="HSUVModel.HSUVBehavior" disposableProviderFactory="true" ecorePackage="HSUVModel.ecore#//HSUVBehavior/DeliverPowerBehavior"/>
+    </nestedGenPackages>
+    <nestedGenPackages xsi:type="genmodel:GenPackage" prefix="HSUVStructure" basePackage="HSUVModel"
+        disposableProviderFactory="true" ecorePackage="HSUVModel.ecore#//HSUVStructure">
+      <genClasses xsi:type="genmodel:GenClass" ecoreClass="HSUVModel.ecore#//HSUVStructure/AutomotiveDomain"/>
+      <genClasses xsi:type="genmodel:GenClass" ecoreClass="HSUVModel.ecore#//HSUVStructure/HybridSUV">
+        <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+            createChild="true" ecoreFeature="ecore:EReference HSUVModel.ecore#//HSUVStructure/HybridSUV/powerSubsystem"/>
+        <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+            createChild="true" ecoreFeature="ecore:EReference HSUVModel.ecore#//HSUVStructure/HybridSUV/breakSubsystem"/>
+        <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+            createChild="true" ecoreFeature="ecore:EReference HSUVModel.ecore#//HSUVStructure/HybridSUV/bodySubsystem"/>
+        <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+            createChild="true" ecoreFeature="ecore:EReference HSUVModel.ecore#//HSUVStructure/HybridSUV/interiorSubsystem"/>
+        <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+            createChild="true" ecoreFeature="ecore:EReference HSUVModel.ecore#//HSUVStructure/HybridSUV/lightingSubsystem"/>
+        <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+            createChild="true" ecoreFeature="ecore:EReference HSUVModel.ecore#//HSUVStructure/HybridSUV/chassisSubsystem"/>
+      </genClasses>
+      <genClasses xsi:type="genmodel:GenClass" ecoreClass="HSUVModel.ecore#//HSUVStructure/PowerSubSystem">
+        <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+            createChild="true" ecoreFeature="ecore:EReference HSUVModel.ecore#//HSUVStructure/PowerSubSystem/wheelHubAssembly"/>
+        <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+            propertySortChoices="true" ecoreFeature="ecore:EReference HSUVModel.ecore#//HSUVStructure/PowerSubSystem/brakePedal"/>
+      </genClasses>
+      <genClasses xsi:type="genmodel:GenClass" ecoreClass="HSUVModel.ecore#//HSUVStructure/WheelHubAssembly"/>
+      <genClasses xsi:type="genmodel:GenClass" ecoreClass="HSUVModel.ecore#//HSUVStructure/BrakePedal"/>
+      <genClasses xsi:type="genmodel:GenClass" ecoreClass="HSUVModel.ecore#//HSUVStructure/BreakSubsystem">
+        <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+            createChild="true" ecoreFeature="ecore:EReference HSUVModel.ecore#//HSUVStructure/BreakSubsystem/brakePedal"/>
+      </genClasses>
+      <genClasses xsi:type="genmodel:GenClass" ecoreClass="HSUVModel.ecore#//HSUVStructure/BodySubsystem"/>
+      <genClasses xsi:type="genmodel:GenClass" ecoreClass="HSUVModel.ecore#//HSUVStructure/InteriorSubsystem"/>
+      <genClasses xsi:type="genmodel:GenClass" ecoreClass="HSUVModel.ecore#//HSUVStructure/LightingSubsystem"/>
+      <genClasses xsi:type="genmodel:GenClass" ecoreClass="HSUVModel.ecore#//HSUVStructure/ChassisSubsytem">
+        <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+            createChild="true" ecoreFeature="ecore:EReference HSUVModel.ecore#//HSUVStructure/ChassisSubsytem/wheelHubAssembly"/>
+      </genClasses>
+    </nestedGenPackages>
+    <nestedGenPackages xsi:type="genmodel:GenPackage" prefix="HSUVViews" basePackage="HSUVModel"
+        disposableProviderFactory="true" ecorePackage="HSUVModel.ecore#//HSUVViews">
+      <genClasses xsi:type="genmodel:GenClass" ecoreClass="HSUVModel.ecore#//HSUVViews/OperationalVIewpoint"/>
+      <genClasses xsi:type="genmodel:GenClass" ecoreClass="HSUVModel.ecore#//HSUVViews/PerformanceViewpoint"/>
+      <nestedGenPackages xsi:type="genmodel:GenPackage" prefix="OperationalView" basePackage="HSUVModel.HSUVViews"
+          disposableProviderFactory="true" ecorePackage="HSUVModel.ecore#//HSUVViews/OperationalView"/>
+      <nestedGenPackages xsi:type="genmodel:GenPackage" prefix="PerformanceView" basePackage="HSUVModel.HSUVViews"
+          disposableProviderFactory="true" ecorePackage="HSUVModel.ecore#//HSUVViews/PerformanceView"/>
+    </nestedGenPackages>
+    <nestedGenPackages xsi:type="genmodel:GenPackage" prefix="HSUVInterfaces" basePackage="HSUVModel"
+        disposableProviderFactory="true" ecorePackage="HSUVModel.ecore#//HSUVInterfaces"/>
+    <nestedGenPackages xsi:type="genmodel:GenPackage" prefix="HSUVRequirements" basePackage="HSUVModel"
+        disposableProviderFactory="true" ecorePackage="HSUVModel.ecore#//HSUVRequirements">
+      <genClasses xsi:type="genmodel:GenClass" ecoreClass="HSUVModel.ecore#//HSUVRequirements/Performance"/>
+    </nestedGenPackages>
+    <nestedGenPackages xsi:type="genmodel:GenPackage" prefix="HSUVAnalysis" basePackage="HSUVModel"
+        disposableProviderFactory="true" ecorePackage="HSUVModel.ecore#//HSUVAnalysis"/>
+    <nestedGenPackages xsi:type="genmodel:GenPackage" prefix="AutomotiveValueTypes"
+        basePackage="HSUVModel" disposableProviderFactory="true" ecorePackage="HSUVModel.ecore#//AutomotiveValueTypes"/>
+  </genPackages>
+</genmodel:GenModel>
