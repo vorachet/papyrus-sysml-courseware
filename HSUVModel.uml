@@ -213,7 +213,7 @@
       <packagedElement xmi:type="uml:Class" xmi:id="_X4hmoK55Eeemhd99vAxUoA" name="RegenerativeBraking"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_bZSXoK55Eeemhd99vAxUoA" client="_X4hmoK55Eeemhd99vAxUoA" supplier="_4BAbcK54Eeemhd99vAxUoA"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_c9n4MK55Eeemhd99vAxUoA" client="_X4hmoK55Eeemhd99vAxUoA" supplier="_5jOcIK54Eeemhd99vAxUoA"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_ioqvcK55Eeemhd99vAxUoA" name="RegenerativeBraking"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ioqvcK55Eeemhd99vAxUoA" name="Range"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_l2c6EK55Eeemhd99vAxUoA" client="_ioqvcK55Eeemhd99vAxUoA" supplier="_5jOcIK54Eeemhd99vAxUoA"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_ndPRsK55Eeemhd99vAxUoA" client="_ioqvcK55Eeemhd99vAxUoA" supplier="_If7sAK55Eeemhd99vAxUoA"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_vsWBIK55Eeemhd99vAxUoA" client="_ECZ7UK56Eeemhd99vAxUoA" supplier="_5jOcIK54Eeemhd99vAxUoA"/>
@@ -307,7 +307,7 @@
   <ModelElements:Conform xmi:id="_yHg9gK5BEeeSp-bnIJDiMA" base_Dependency="_yHdTIK5BEeeSp-bnIJDiMA"/>
   <ModelElements:ViewPoint xmi:id="_VbNUoK5CEeeSp-bnIJDiMA" base_Class="_VbExwK5CEeeSp-bnIJDiMA"/>
   <ModelElements:Conform xmi:id="_BVzlQK5FEeeo-f1CuAxYnA" base_Dependency="_BVsQgK5FEeeo-f1CuAxYnA"/>
-  <Requirements:Requirement xmi:id="_wo9YAK5FEeeo-f1CuAxYnA" id="" base_Class="_wo5toK5FEeeo-f1CuAxYnA"/>
+  <Requirements:Requirement xmi:id="_wo9YAK5FEeeo-f1CuAxYnA" text="undefined" id="0" base_Class="_wo5toK5FEeeo-f1CuAxYnA"/>
   <Blocks:Block xmi:id="_T7a4sK5JEeeo-f1CuAxYnA" base_Class="_T7ZqkK5JEeeo-f1CuAxYnA"/>
   <Blocks:Block xmi:id="_VYbCMK5JEeeo-f1CuAxYnA" base_Class="_VYabIK5JEeeo-f1CuAxYnA"/>
   <Blocks:Block xmi:id="_a4v3MK5JEeeo-f1CuAxYnA" base_Class="_a4vQIK5JEeeo-f1CuAxYnA"/>
@@ -318,26 +318,26 @@
   <Blocks:Block xmi:id="_lH9dMK5JEeeo-f1CuAxYnA" base_Class="_lH82IK5JEeeo-f1CuAxYnA"/>
   <Blocks:Block xmi:id="_mRq3QK5JEeeo-f1CuAxYnA" base_Class="_mRqQMK5JEeeo-f1CuAxYnA"/>
   <ModelElements:Rationale xmi:id="_jR-noK54Eeemhd99vAxUoA" base_Comment="_jR8LYK54Eeemhd99vAxUoA"/>
-  <Requirements:Requirement xmi:id="_4BZdAK54Eeemhd99vAxUoA" base_Class="_4BAbcK54Eeemhd99vAxUoA"/>
-  <Requirements:Requirement xmi:id="_5jcekK54Eeemhd99vAxUoA" base_Class="_5jOcIK54Eeemhd99vAxUoA"/>
-  <Requirements:Requirement xmi:id="_IgP1EK55Eeemhd99vAxUoA" base_Class="_If7sAK55Eeemhd99vAxUoA"/>
-  <Requirements:Requirement xmi:id="_JwsJQK55Eeemhd99vAxUoA" base_Class="_JwZOUK55Eeemhd99vAxUoA"/>
-  <Requirements:Requirement xmi:id="_MTOXcK55Eeemhd99vAxUoA" base_Class="_MS1V4K55Eeemhd99vAxUoA"/>
-  <Requirements:Requirement xmi:id="_Ph7vIK55Eeemhd99vAxUoA" base_Class="_PhlJ0K55Eeemhd99vAxUoA"/>
-  <Requirements:Requirement xmi:id="_X47PQK55Eeemhd99vAxUoA" base_Class="_X4hmoK55Eeemhd99vAxUoA"/>
+  <Requirements:Requirement xmi:id="_4BZdAK54Eeemhd99vAxUoA" text="undefined" id="1" base_Class="_4BAbcK54Eeemhd99vAxUoA"/>
+  <Requirements:Requirement xmi:id="_5jcekK54Eeemhd99vAxUoA" text="undefined" id="2" base_Class="_5jOcIK54Eeemhd99vAxUoA"/>
+  <Requirements:Requirement xmi:id="_IgP1EK55Eeemhd99vAxUoA" text="undefined" id="3" base_Class="_If7sAK55Eeemhd99vAxUoA"/>
+  <Requirements:Requirement xmi:id="_JwsJQK55Eeemhd99vAxUoA" text="undefined" id="4" base_Class="_JwZOUK55Eeemhd99vAxUoA"/>
+  <Requirements:Requirement xmi:id="_MTOXcK55Eeemhd99vAxUoA" text="undefined" id="5" base_Class="_MS1V4K55Eeemhd99vAxUoA"/>
+  <Requirements:Requirement xmi:id="_Ph7vIK55Eeemhd99vAxUoA" text="undefined" id="6" base_Class="_PhlJ0K55Eeemhd99vAxUoA"/>
+  <Requirements:Requirement xmi:id="_X47PQK55Eeemhd99vAxUoA" text="undefined" id="7" base_Class="_X4hmoK55Eeemhd99vAxUoA"/>
   <Requirements:DeriveReqt xmi:id="_baIFIK55Eeemhd99vAxUoA" base_Abstraction="_bZSXoK55Eeemhd99vAxUoA"/>
   <Requirements:DeriveReqt xmi:id="_c-UbwK55Eeemhd99vAxUoA" base_Abstraction="_c9n4MK55Eeemhd99vAxUoA"/>
-  <Requirements:Requirement xmi:id="_ipLFwK55Eeemhd99vAxUoA" base_Class="_ioqvcK55Eeemhd99vAxUoA"/>
+  <Requirements:Requirement xmi:id="_ipLFwK55Eeemhd99vAxUoA" text="undefined" id="8" base_Class="_ioqvcK55Eeemhd99vAxUoA"/>
   <Requirements:DeriveReqt xmi:id="_l3O9MK55Eeemhd99vAxUoA" base_Abstraction="_l2c6EK55Eeemhd99vAxUoA"/>
   <Requirements:DeriveReqt xmi:id="_nd6nIK55Eeemhd99vAxUoA" base_Abstraction="_ndPRsK55Eeemhd99vAxUoA"/>
   <Requirements:DeriveReqt xmi:id="_vtG2IK55Eeemhd99vAxUoA" base_Abstraction="_vsWBIK55Eeemhd99vAxUoA"/>
-  <Requirements:Requirement xmi:id="_zFREwK55Eeemhd99vAxUoA" base_Class="_zEoyoK55Eeemhd99vAxUoA"/>
+  <Requirements:Requirement xmi:id="_zFREwK55Eeemhd99vAxUoA" text="undefined" id="9" base_Class="_zEoyoK55Eeemhd99vAxUoA"/>
   <Requirements:DeriveReqt xmi:id="_z6-kwK55Eeemhd99vAxUoA" base_Abstraction="_z6El0K55Eeemhd99vAxUoA"/>
   <Requirements:DeriveReqt xmi:id="_1MVe8K55Eeemhd99vAxUoA" base_Abstraction="_1La48K55Eeemhd99vAxUoA"/>
   <Requirements:DeriveReqt xmi:id="_2Rz5QK55Eeemhd99vAxUoA" base_Abstraction="_2P2KYK55Eeemhd99vAxUoA"/>
   <ModelElements:Problem xmi:id="_5e6HYK55Eeemhd99vAxUoA" base_Comment="_5el-UK55Eeemhd99vAxUoA"/>
   <ModelElements:Rationale xmi:id="__l23gK55Eeemhd99vAxUoA" base_Comment="__ljVgK55Eeemhd99vAxUoA"/>
-  <Requirements:Requirement xmi:id="_EDIUEK56Eeemhd99vAxUoA" base_Class="_ECZ7UK56Eeemhd99vAxUoA"/>
+  <Requirements:Requirement xmi:id="_EDIUEK56Eeemhd99vAxUoA" text="undefined" id="10" base_Class="_ECZ7UK56Eeemhd99vAxUoA"/>
   <Requirements:DeriveReqt xmi:id="_LQc2YK56Eeemhd99vAxUoA" base_Abstraction="_LPOHUK56Eeemhd99vAxUoA"/>
   <Requirements:Satisfy xmi:id="_WnHsUK59Eeemhd99vAxUoA" base_Abstraction="_WmkSsK59Eeemhd99vAxUoA"/>
   <standard:Refine xmi:id="_owJ40K5-Eeemhd99vAxUoA" base_Abstraction="_oG1PAK5-Eeemhd99vAxUoA"/>
