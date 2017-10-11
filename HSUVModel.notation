@@ -794,7 +794,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_boqpuK50Eeemhd99vAxUoA"/>
       </children>
       <element xmi:type="uml:UseCase" href="HSUVModel.uml#_boo0gK50Eeemhd99vAxUoA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_boqpsa50Eeemhd99vAxUoA" x="280" y="370"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_boqpsa50Eeemhd99vAxUoA" x="255" y="387"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_lrWwEa5HEeeo-f1CuAxYnA" name="diagram_compatibility_version" stringValue="1.2.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_lrWwEq5HEeeo-f1CuAxYnA"/>
